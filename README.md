@@ -206,3 +206,7 @@ Number('') // 0
 parseFloat('123.45#') // 123.45
 Number('123.45#') // NaN
 ```
+
+* 8、ajax原理和XmlHttpRequest对象
+ 
+    Ajax的原理简单来说通过XmlHttpRequest对象来向服务器发异步请求，从服务器获得数据，然后用javascript来操作DOM而更新页面。这其中最关键的一步就是从     服务器获得请求数据。要清楚这个过程和原理，我们必须对 XMLHttpRequest有所了解。
