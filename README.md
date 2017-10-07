@@ -133,6 +133,7 @@ An open JavaScript tutorial book, focusing on client devices, written in Chinese
 
 * 6.parseInt方法还可以接受第二个参数（2到36之间），
   表示被解析的值的进制，返回该值对应的十进制数。默认情况下，parseInt的第二个参数为10，即默认是十进制转十进制。
+  
   ```
   parseInt('1000') // 1000
   // 等同于
@@ -221,7 +222,7 @@ An open JavaScript tutorial book, focusing on client devices, written in Chinese
   
   深拷贝：在堆中重新分配内存，并且把源对象所有属性都进行新建拷贝，以保证深拷贝的对象的引用图不包含任何原有对象或对象图上的任何对象，拷贝后的对象与原   来的对象是完全隔离，互不影响
   
-  ```
+  ```
   浅拷贝
 
   浅拷贝分两种情况，拷贝直接拷贝源对象的引用 和 源对象拷贝实例，但其属性（类型为Object，Array的属性）拷贝引用。
